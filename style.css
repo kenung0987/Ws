@@ -1,22 +1,19 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    height: 200vh; /* Tambahkan ketinggian untuk menciptakan efek parallax saat discroll */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('background.gif') fixed;
     background-size: cover;
+    margin: 0;
+    height: 200vh;
     overflow: hidden;
 }
 
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Tambahkan transparansi untuk latar belakang */
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20vh; /* Sesuaikan dengan tinggi jendela tampilan */
+    margin-top: 20vh;
 }
 
 button {
@@ -37,3 +34,4 @@ button:hover {
     font-size: 18px;
     margin-top: 20px;
 }
+
