@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: url('coba.gif') fixed;
+    background: url('cc.jpg') fixed; /* Ganti 'landscape.jpg' dengan nama dan format gambar Anda */
     background-size: cover;
     margin: 0;
     height: 200vh;
@@ -34,4 +34,3 @@ button:hover {
     font-size: 18px;
     margin-top: 20px;
 }
-
